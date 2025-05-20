@@ -42,3 +42,20 @@
 
 ## 📂 Folder Structure
 
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repo:**
+
+```bash
+git clone https://github.com/yourusername/take-it-easy.git
+cd take-it-easy
+
