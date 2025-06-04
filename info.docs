@@ -1,0 +1,73 @@
+✅ Project Overview: Take It Easy (TIE)
+Goal:
+Provide students with structured guidance and complete domain knowledge based on their engineering branch and interest (e.g., Web Dev, App Dev, AI/ML, etc.).
+
+🏗️ Tech Stack
+Frontend: React.js + Tailwind CSS (optional for styling)
+
+Backend: Node.js + Express.js
+
+Database: MongoDB (with Mongoose) or MySQL
+
+Authentication: JWT + bcrypt
+
+Deployment: Vercel (Frontend) + Render / Railway / Heroku (Backend) or use VPS for full control
+
+🌐 Website Structure
+1. Public Pages (No Login Required)
+Home Page: Brief intro of TIE, benefits, CTA for login/register.
+
+About Page: Vision, team, mission, etc.
+
+2. Authentication
+Register Page: Name, Email, Password, Confirm Password, College Name, Branch
+
+Login Page: Email + Password
+
+Use JWT Tokens for session management
+
+Optionally use cookies for persistence
+
+3. User Dashboard (After Login)
+After login:
+
+User selects Branch/Stream: (CSE, ENTC, Mechanical, etc.)
+
+Redirect to branch-specific domain list page
+
+Example Flow:
+Choose CSE
+
+Redirect to CSE Domains: Web Dev, App Dev, AI/ML, Blockchain, Cybersecurity, etc.
+
+Click on Web Dev → See all the following:
+
+4. Domain Page Features
+Each domain page contains:
+
+Section	Description
+Top Companies	List of companies hiring in that domain (with avg package)
+Roadmap	Visual or step-by-step roadmap (Frontend → Backend → DB → DevOps...)
+Required Skills	Skills needed, divided by level (Beginner/Intermediate/Advanced)
+Time Estimation	How long it takes to be job-ready (e.g., 6 months part-time)
+Courses	Free/Paid course recommendations with links (e.g., Coursera, YouTube, etc)
+Tools	Recommended tools/tech to learn (e.g., VS Code, Postman, Git)
+Projects	Mini + Major project ideas
+
+📁 File/Folder Structure Suggestion
+pgsql
+Copy
+Edit
+tie-app/
+├── client/ (React App)
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/ (API calls)
+│   │   └── App.js
+├── server/ (Node + Express API)
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   └── server.js
