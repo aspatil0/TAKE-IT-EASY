@@ -1,7 +1,7 @@
 # 🎓 Take It Easy
 
 **Take It Easy** is a multipage web application designed to simplify the lives of students by providing curated, easy-to-access information about their chosen domains or fields of study. Built with modern technologies such as **Next.js** for the frontend and **Node.js** for the backend, this platform aims to streamline student learning, awareness, and access to opportunities.
-
+ 
 ---
 
 ## 🌐 Live Demo
