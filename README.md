@@ -13,11 +13,10 @@
 
 ## 🛠 Tech Stack
 
-| Frontend   | Backend  | Styling     | Others       |
-|------------|----------|-------------|--------------|
-| Next.js    | Node.js  | TailwindCSS | REST APIs    |
-| React.js   | Express  | CSS Modules | JSON         |
-| JSX/TSX    | Nodemon  |             |              |
+| Frontend   | Backend  | Styling     | 
+|------------|----------|-------------|
+| Next.js    | Node.js  | TailwindCSS |
+| React.js   | Express  | CSS Modules |
 
 ---
 
