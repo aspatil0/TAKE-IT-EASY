@@ -15,8 +15,8 @@
 
 | Frontend   | Backend  | Styling     | 
 |------------|----------|-------------|
-| Next.js    | Node.js  | TailwindCSS |
-| React.js   | Express  | CSS Modules |
+| HTML       |      js  | TailwindCSS |
+|CSS BOOTSTRAP|         | CSS Modules |
 
 ---
 
